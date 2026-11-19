@@ -1,0 +1,20 @@
+# Foundry
+out/
+cache/
+broadcast/
+
+# Dependencies (installed via `forge install`, not vendored)
+lib/
+
+# Environment — NEVER commit real keys
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Node (agent/ + app/ at build time)
+node_modules/
+dist/
